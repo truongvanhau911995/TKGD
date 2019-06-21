@@ -1,0 +1,14 @@
+import java.math.BigDecimal;
+public class HelloWorld{
+
+     public static void main(String []args){
+       int place = -4; 
+       int position = Math.abs(place);
+       BigDecimal value = new BigDecimal("2498374654000");
+       BigDecimal donvi =new BigDecimal(Math.pow(10,position-1));
+       BigDecimal kq = value.divide(donvi);
+       System.out.println(kq);
+        // BigDecimal bigDecimal = new BigDecimal(22.121455);
+       // System.out.println("bigDecimal = " + formatCurrency(bigDecimal.doubleValue()));
+     }
+}
